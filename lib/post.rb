@@ -2,6 +2,7 @@ class Post
   attr_accessor :author, :name
   
   def initialize(name)
+    @name = name
     @@all << self
   end
   @@all = []
